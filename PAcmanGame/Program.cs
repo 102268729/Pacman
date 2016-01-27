@@ -13,7 +13,7 @@ namespace PacmanGame
 
         static Thread background = new Thread(BackgroundGame);
         public static Map map = new Map();
-        
+        public static Pacman pacman;
         public static List<StupidGhost> stupidGhosts = new List<StupidGhost>();
         public static List<SmartGhost> smartGhosts = new List<SmartGhost>();
 
